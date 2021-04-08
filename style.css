@@ -25,10 +25,6 @@
     animation: colorTransition 3s infinite;
 }
 
-#column2{
-    
-}
-
 #column3{
     background-color: blue;
 }
@@ -57,6 +53,6 @@
     0%   {transform:translate(0vw, -33vh); color: white;}
     25%  {transform:translate(0vw, 0vh); color: black}
     50%  {transform:translate(0vw, 33vh); color: white}
-    75%  {transform:translate(0vw, 0vh); color: black}
+    75%  {color: black}
     100% {transform:translate(0vw, -33vh); color: white}
 }
